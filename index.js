@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine,ticketNumber) {
   
   Tnumber = Tnumber + 1
   
-  return `You are ticketNumber ${Tnumber}`
+  return `You are ticket number ${Tnumber}.`
 
 }
   
