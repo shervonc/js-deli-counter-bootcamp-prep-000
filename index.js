@@ -1,10 +1,20 @@
 var katzDeliLine = []
+ var Tnumber = 0
 
+function takeANumber(katzDeliLine,ticketNumber) {
+  
+  Tnumber = Tnumber + 1
+  
+  return `You are ticketNumber ${Tnumber}`
 
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(`${name}`);
-  return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
 }
+  
+  
+//function takeANumber(katzDeliLine, name) {
+ // katzDeliLine.push(`${name}`);
+ // return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
+//}
+
 
 function nowServing(katzDeliLine) {
   
